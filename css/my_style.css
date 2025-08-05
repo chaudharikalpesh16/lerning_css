@@ -1,0 +1,47 @@
+p{
+    color: rgb(185, 14, 14);
+
+}
+
+h3{
+    font-size: 50px;
+    background-color: blueviolet !important;
+}
+h2{
+    font-size: 100;
+    background-color: darkgoldenrod !important;
+}
+
+.text_transform_up{
+            text-transform: uppercase;
+         }
+        
+.text_transform_low{
+            text-transform: lowercase;
+         }
+
+.text_transform_cap{
+            text-transform: capitalize;
+         }
+
+         .text_transform_underlinr{
+            text-decoration: underline;
+         }
+         .text_transform_overline{
+            text-decoration: overline;
+         }
+         .text_transform_linethrought{
+            text-decoration: line-through;
+         }
+         .letter{
+            text-indent: 80px;
+         }
+         .letter_spacing{
+            letter-spacing: 70px;
+         }
+         .World_spacing{
+            World-spacing: 50px;
+         }
+         .line_height{
+            line-height: 10px;
+         }
