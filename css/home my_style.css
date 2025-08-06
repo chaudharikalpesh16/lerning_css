@@ -1,0 +1,16 @@
+h1{
+    color: brown !important;
+   background-color: pink !important;
+}
+h2{
+    font-size: 50px;
+    color: cadetblue;
+   }
+   h3s{
+    font-size: 50px;
+    color: red;
+   }
+   p{
+    font-size: 20px;
+    color: blue;
+   }
