@@ -257,5 +257,71 @@ h2{
       margin-left: 200px 40px ;
    }
 
+   .f_family01{
+      font-family: cursive;
+   }
+
+    .f_family02{
+      font-family:fantasy;
+   }
+    .f_family03{
+      font-family: monospace;
+   }
    
+   .b_brodar{
+      border: 10px inset yellow;
+      box-shadow: red;
+   }
+
+   .b_bordar1{
+      border: 10px inset yellow;
+      box-shadow: red;
+      text-shadow: orangered;
+   }
+
+   .b_bordar2{
+      width: 200px;
+      border: 4px double blueviolet ;
+
+      /*border-radius: 200px*/
+
+      /*border-top-left-radius: 50px;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 50px;
+      border-bottom-left-radius: 20px;*/
+
+      border-radius: 100px 50px 100px 50px;
+      border-color: red green yellow purple; 
+   }
+
+      .box_model1{
+         border: 4px inset coral;
+         padding: 70px;
+         margin: 50px;
+
+         
+
+      }
+
+   .box_model2{
+      width: 250px;
+      border: 5px double blue;
+      border-radius: 50px 20px 50px 20px;
+      padding: 50px 10px 50px 10px;
+      margin-left: 70;
+   }
+
+   .linear{
+      height: 400px;
+      text-align: center;
+      text-align: donw;
+      font-size: 200px;
+      padding-top: 200px;
+      margin: 20px;
+      margin-left: 70px 35px 70px 35px;
+     /* background: linear-gradient(to left, orangered, white, green);*/
+      /*background: conic-gradient(orangered, white, green);*/
+      background: radial-gradient( orangered, white, green);
+   }
+
 
