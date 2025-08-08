@@ -324,4 +324,87 @@ h2{
       background: radial-gradient( orangered, white, green);
    }
 
+   body{
+      /*background-image: url(/image/bcakg1.jpg);
+      border-radius: no-repeat;
+      background-size: cover;*/
+   }
+
+   .heading{
+      text-align: center;
+      font-size: 50px;
+      color: white;
+      padding-top: 50px;
+   }
+
+   .text{
+      padding-left: 300px;
+      padding-right: 300px;
+      text-align: center;
+      color: white;
+      background-color: blue;
+    font-size: 10px;
+
+   }
+  .span{
+    background-color: blue;
+    font-size: 20px;
+  }
+  .box{
+   width: 250px;
+   height: 100px;
+   background-color: pink;
+   border: 6px inset red;
+   margin: 40px;
+   text-align: center
+   ;
+  }
+  .box1{
+   position: static;
+   left: 300px;
+  }
+  .box2{
+   position: relative;
+   left: 300px;
+   top: 20px;
+  }
+  .box3{
+   position: absolute;
+   left: 300px;
+   top: 20px;
+  }
+
+  .box4{
+   position: fixed;
+   right: 10px;
+   bottom: 0px;
+  }
+  .box5{
+   position: sticky;
+   top:10px;
+  }
+  .rel{
+   position: relative;
+   width: 400px;
+   height: 400px;
+   background-color: red;
+   top: 20px;
+   left: 400px;
+  }
+  #tv{
+   position: absolute;
+   height: 30px;
+   width: 100px;
+   left: 150px;
+   background-color: yellow;
+   top: 10px;
+  }
+   #sofa{
+   position: absolute;
+   height: 30px;
+   width: 100px;
+   left: 150px;
+   background-color: gainsboro;
+   top: 10px;
+  }
 
