@@ -475,4 +475,103 @@ h2{
       border: 4px solid black;
       height: 250px;
       width: 250px;
+      color: white;
+      align-items: center;
+      font-size: 30px;
+      transition: transform 1s ease;
+
    }
+   .box11:hover{
+      transform: translate(250px,250px);
+   }
+   .box22:hover{
+      transform: translateX(125px);
+   }
+   .box33:hover{
+      transform: translateX(125px);
+   }
+    .box44:hover{
+      transform: rotate(720deg);
+   }
+   
+    .box55:hover{
+      transform: skewX(50deg);
+   }
+   .box66:hover{
+      transform: skewY(50deg);
+   }
+.box77:hover{
+      transform: skew(20deg,20deg);
+   }
+   .box88:hover{
+      transform: scale(2);
+   }
+   .box99:hover{
+      transform: scale(2) rotate(180deg) translateX(150px);
+   }
+   .img-wrapper{
+      width: 400px;
+      height: 350px;
+      border: 5px solid blue;
+      position: relative;
+      overflow: hidden;
+   }
+
+   .inner-img{
+      width: 100%;
+      height: 100%;
+      transition: 2s;
+   }
+
+   .inner-img:hover{
+       transform: scale(2);
+   }
+   .img-wrapper1{
+      width: 300px;
+      height: 250px;
+      border: 5px solid rgb(255, 136, 0);
+      position: relative;
+      overflow: hidden;
+      transform: rotate(180deg);
+   }
+
+   .inner-img{
+      width: 100%;
+      height: 100%;
+      transition: 2s;
+      transform: rotate(180deg);
+   }
+
+   .inner-img:hover{
+       transform: scale(2);
+   }
+
+   .img_kc{
+     width: 200px;
+      height: 200px;
+      background-color: yellow;
+      position: relative;
+      animation: kalpesh;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate-reverse;
+      animation-delay: 1s;
+
+   }
+
+   @keyframes kalpesh{
+      0%{background-color: green;left:0px;top:0px}
+      25%{background-color: pink;left:300px;top:0px}
+      50%{background-color: blue;left:300px;top:300px}
+      75%{background-color:orangered;left:0px;top:300px}
+      100%{background-color:green;left:0px;top:0px}
+
+   }
+   
+   
+   
+
+
+
+
+
