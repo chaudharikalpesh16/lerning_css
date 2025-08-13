@@ -488,7 +488,7 @@ h2{
       transform: translateX(125px);
    }
    .box33:hover{
-      transform: translateX(125px);
+      transform: translateY(125px);
    }
     .box44:hover{
       transform: rotate(720deg);
