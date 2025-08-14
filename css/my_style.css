@@ -659,7 +659,7 @@ h2{
       background: linear-gradient( to right,green,red,blue,purple);
       background-clip: text;
       color: transparent;
-      transform-origin: bottom ;
+      transform-origin: bottom; 
       transform: rotateX(-85deg);
       animation: kalpesh 10s infinite;
    }
@@ -697,7 +697,7 @@ h2{
       justify-content: center;
    }
    .swing{
-      animation: swing 1.5s ease-in-out infinite alternate;
+      animation: swing 1s ease-in-out infinite alternate;
       transform-origin: top center;
       position: relative;
    }
@@ -708,9 +708,28 @@ h2{
       box-shadow: 2px 3px 10px black;
    }
    @keyframes swing{
-      0%{transform: rotate(7deg);}
-      100%{transform: rotate(-7deg);}
+      0%{transform: rotate(10deg);}
+      100%{transform: rotate(-10deg);}
    }
+
+   li:nth-child(odd){
+      background-color: red;
+   }
+   li:nth-child(even){
+      background-color: chartreuse;
+   }
+
+   li:first-child{
+      background-color: aqua;
+   }
+   li:last-child{
+      background-color: blueviolet;
+   }
+
+   li:nth-child(5){
+      background: palevioletred;
+   }
+
 
    
 
