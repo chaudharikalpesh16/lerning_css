@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media</title>
+    <style>
+
+/* min-width query*/
+  /* from 850px and up, untill 950px*/
+
+         @media (min-width: 320px) and (max-width: 767px){
+      body{
+         font-size: 20px;
+         background-color:  red;
+      }
+      p{
+         display: none;
+      }
+      h1,h3{
+         color: white;
+      }
+      img{
+        display: flex;
+      }
+
+   }
+
+    @media (min-width: 768px){
+        body{
+            background-color: green;
+        }
+    }
+
+     @media (min-width: 1024px){
+        body{
+            background-color: yellow;
+        }
+     }
+
+      @media (min-width: 1224px){
+        body{
+            background-color: purple;
+        }
+      }
+
+       @media (min-width: 1824px){
+        body{
+            background-color: black;
+            color: white;
+        }
+      }
+  /* max-width query*/
+  /* from 850px and up, untill 950px*/
+       @media (min-width: 320px) and (max-width: 767px){
+      body{
+        
+         background-color: tomato;
+      }
+      p{
+         display: none;
+      }
+      h1,h3{
+         color: aqua;
+         font-size: 80px;
+      }
+
+      img{
+        display: none;
+      }
+
+   }
+
+    </style>
+
+</head>
+<body>
+    <h1>CSS Media Queries</h1>
+    <p>the background will change accrding to the viewport width change.</p><br><br>
+     <h3>Smartphone -<samp class="details">from 320px and up </samp>(min-width:320px) </h3>
+     <img class="img"   src="image/cat1.jpg" alt="cat">
+</body>
+<p>BLUE</p>
+<br>
+
+<h3>tables, ipads (portrait) - <samp class="details">from 768px and up</samp>(min-width:768px)</h3>
+<p>GREEN</p>
+<br>
+
+<h3>tables, ipads (landscape) - <samp class="details">from 1024px and up</samp>(min-width: 1024px)</h3>
+<p>ORANGE</p>
+<br>
+
+<h3>Desktops and laptops  - <samp class="details">from 1224px and up</samp>(min-width: 1224px)</h3>
+<p>ORANGE</p>
+<br>
+
+<h3>large screens - <samp class="details">from 1824px and up</samp>(min-width: 1824px)</h3>
+<p>ORANGE</p>
+<br>
+</html>

@@ -730,6 +730,20 @@ h2{
       background: palevioletred;
    }
 
+   @media (min-width: 320px) and (max-width: 767px){
+      body{
+         font-size: 20px;
+         background-color:  red;
+      }
+      p{
+         display: flex;
+      }
+      h1,h3{
+         color: white;
+      }
+
+   }
+
 
    
 
